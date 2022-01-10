@@ -1,3 +1,52 @@
 
+What is User Authentication?
+User Authentication is a process that allows a device to verify the identify of someone who connects to a network resource. It's important that you must idenify your users before you let them connect to resources on the external network. 
+
+What is Load Balancing?
+Load Balancing is the process of redistribution of workload in a distributed system like cloud computing ensuring no cumputing machine is overloaded, under-loaded or idle. Load balancing tries to speed up different constrained parameters like response time, execution time, system stability etc.
+
+What is Caching? 
+Caching is the term for storing reusable responses in order to make subsequent requests faster. Web caching is a core design feature of the HTTP protocal meant to minimize network traffic while improving the perceived responsiveness of the system as a whole. 
+For example: a user accesses a website. The browser sends an HTTP requests to the web cache. If the requested object IS stored in the cache, the web cache responds with the object. If the requested object IS  NOT stored in the cache, the web cache requests the object from the origin server and sends the response to the browser.  
+
+Caching rate: the rate in which users will click an URL that already existd in the cache database compare to the total clicks by all users. 
+
+3 Rule of Caching: think about when caching is a better option rather than getting informations from the database which is from really far away. Function frequently called, output not changing as often and it takes a long time to execute. Caching should be faster than getting the data from the current data source. 
+
+AWS provide servers, storage, networking, remote computing, email, mobile development, and security under cloud-based products. These services help oraganization move faster, lower IT costs, and scale. 
+
+AWS EC2: 
+  Step 1: An AMI is a template that is used to create a new instance/machine based on user requirement. Two type of AMI, user defined ,and custom AMIs. 
+  Step 2: choosing an instance type. 
+  Step 3: configure instance. 
+  Step 4: Adding Storage
+  Step 5: Adding tags 
+  Step 6: Configuring Security Groups
+  
+AWS S3 (Simple Storage Solution), object storage (img txt. etc.) in a folder structure, cost effective for storage, built in redundancy with 99.999999% durability. Can integrate with SNS, SQS, Lambda for powerful event driven application. 
+   Step 1: Creating bucket
+   Step 2: Upload file
+   Step 3: Settings
+   
+AWS RDS: relational database service. Difference compare to S3. A relational database stores information in a hard schema that is not expected to change over a lifetime. 
+
+
+
+AWS SQS: simple queue service, get put in between the web and the app. Two types: standard queue, and FIFO queue.
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
 systemd libraries, systemd core, systemd daemon, system utility
 https://systemd.io/
